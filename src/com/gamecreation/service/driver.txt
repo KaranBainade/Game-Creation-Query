@@ -1,0 +1,3 @@
+String dataUrl = "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/GetQuote.jsp?symbol=GAIL";
+StockExchange se = new StockExchange();
+List<String> extractData = se.extractData1(dataUrl);
